@@ -30,6 +30,8 @@ Creating scalable product grid layouts
 Enhancing user engagement with smooth hover animations.
 🌟 This project reflects real-world eCommerce design, user engagement strategies, and professional coding standards. A hands-on internship experience where I transformed a design vision into a responsive, functional front-end product.
 [View HTML File](./index.html)
+[View CSS File](./css/style.css)
+[View JavaScript File](./js/script.js)r
 
 ![Screenshot 2025-06-28 102853](https://github.com/user-attachments/assets/4c0b9b05-26b1-4d13-800a-d3ab1f076afe)
 ![Screenshot 2025-06-28 102906](https://github.com/user-attachments/assets/972fb0dc-bcc9-4ae0-b596-6f8202416b6b)
