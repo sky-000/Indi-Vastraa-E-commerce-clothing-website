@@ -1,8 +1,10 @@
-![Screenshot 2025-06-28 102853](https://github.com/user-attachments/assets/23810464-dfc2-4413-b14c-21226d710d35)✨ Modern eCommerce Clothing Website named [Indi-Vastraa] | Built with 💻 HTML, CSS, JavaScript, jQuery & Bootstrap
+✨ Modern eCommerce Clothing Website named [Indi-Vastraa] | Built with 💻 HTML, CSS, JavaScript, jQuery & Bootstrap 
 
 Developed during my Summer Internship at [Company Name], this fully responsive online clothing store combines sleek UI, interactive features, and a seamless shopping experience — all crafted from scratch using core web technologies.
 
 This website demonstrates my hands-on front-end development skills — from clean layout structuring to dynamic user interactivity — all implemented from scratch without using any CMS or frameworks like React or Vue.
+
+[THE DESIGN OF THE WEBSITE WAS TAKEN FROMM COLORLIB WEBSITE TEMPLATES NAME DNK AND FASHI FASHION BUT THE CODE ARE WRITTEN BY ME [SKY-000] YOU CAN CHECK]
 
 🛍️ Whether you're shopping for Men, Women, or Accessories, this site offers:
 
@@ -27,6 +29,7 @@ Creating scalable product grid layouts
 
 Enhancing user engagement with smooth hover animations.
 🌟 This project reflects real-world eCommerce design, user engagement strategies, and professional coding standards. A hands-on internship experience where I transformed a design vision into a responsive, functional front-end product.
+[View HTML File](./index.html)
 
 ![Screenshot 2025-06-28 102853](https://github.com/user-attachments/assets/4c0b9b05-26b1-4d13-800a-d3ab1f076afe)
 ![Screenshot 2025-06-28 102906](https://github.com/user-attachments/assets/972fb0dc-bcc9-4ae0-b596-6f8202416b6b)
@@ -39,6 +42,7 @@ Enhancing user engagement with smooth hover animations.
 ![Screenshot 2025-06-28 103104](https://github.com/user-attachments/assets/bc7f5109-e6c1-4e37-be04-df32a4e3ca51)
 ![Screenshot 2025-06-28 103119](https://github.com/user-attachments/assets/c744996e-708f-4ac7-b8d2-7c4fff1f6b75)
 ![Screenshot 2025-06-28 103141](https://github.com/user-attachments/assets/8b11ea42-1fc0-445d-a631-87a99e2a9d78)
+
 🧠 Final Thoughts
 This eCommerce website isn't just a design — it's a showcase of my learning, creativity, and real-world application of web development best practices during my internship journey. It reflects my ability to build user-focused, scalable, and visually engaging web experiences.
 
