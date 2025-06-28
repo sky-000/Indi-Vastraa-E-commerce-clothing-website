@@ -48,8 +48,19 @@ Enhancing user engagement with smooth hover animations.
 🧠 Final Thoughts
 This eCommerce website isn't just a design — it's a showcase of my learning, creativity, and real-world application of web development best practices during my internship journey. It reflects my ability to build user-focused, scalable, and visually engaging web experiences.
 
+additionals pages 
 
-
+![Screenshot 2025-06-29 005926](https://github.com/user-attachments/assets/87f57fc5-84c9-4226-924e-af1c204c9090)
+![Screenshot 2025-06-29 005940](https://github.com/user-attachments/assets/f50008cc-640e-429a-87df-d0e87abb9d1a)
+![Screenshot 2025-06-29 005940](https://github.com/user-attachments/assets/00e40311-1a34-46f6-974d-eadb859a5d0c)
+![Screenshot 2025-06-29 010005](https://github.com/user-attachments/assets/c96d67a5-93ed-4974-a7e5-1e8bd84d7d24)
+![Screenshot 2025-06-29 010018](https://github.com/user-attachments/assets/fcb54554-8b6c-42e9-8554-969a5e62d53c)
+![Screenshot 2025-06-29 010027](https://github.com/user-attachments/assets/5f688422-291a-4bab-805b-7a505e5c1c5d)
+![Screenshot 2025-06-29 010041](https://github.com/user-attachments/assets/fe36ed85-79db-4d4b-8768-f4e3d48ce3e3)
+![Screenshot 2025-06-29 010059](https://github.com/user-attachments/assets/6fc52f1b-5e57-46db-8e3c-c92638693c9a)
+![Screenshot 2025-06-29 010049](https://github.com/user-attachments/assets/ab3082b6-fc6a-44fa-b718-c86ca9dd65bd)
+![Screenshot 2025-06-29 010049](https://github.com/user-attachments/assets/16a28f96-353a-4575-9fd0-397091e885c0)
+![Screenshot 2025-06-29 010059](https://github.com/user-attachments/assets/a146588d-9106-4a52-abd6-866093498f71)
 
 
 
