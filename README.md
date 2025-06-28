@@ -1,6 +1,6 @@
 ✨ Modern eCommerce Clothing Website named [Indi-Vastraa] | Built with 💻 HTML, CSS, JavaScript, jQuery & Bootstrap 
 
-Developed during my Summer Internship at [Company Name], this fully responsive online clothing store combines sleek UI, interactive features, and a seamless shopping experience — all crafted from scratch using core web technologies.
+Developed during my Summer Internship at [INFO ERA SOFTWARE SERVICES PRIVATE Ltd], this fully responsive online clothing store combines sleek UI, interactive features, and a seamless shopping experience — all crafted from scratch using core web technologies.
 
 This website demonstrates my hands-on front-end development skills — from clean layout structuring to dynamic user interactivity — all implemented from scratch without using any CMS or frameworks like React or Vue.
 
