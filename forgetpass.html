@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recover Password</title>
+  <link rel="stylesheet" href="recovery_pass.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('food-bg.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.input-group i {
+  margin-right: 10px;
+  color: #555;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #5e35b1;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #d4af37;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    padding: 25px 20px;
+  }
+
+  .btn, .input-group input {
+    font-size: 14px;
+  }
+}
+
+.btn1{
+    background-color: #d4af37;
+    width: 100px;
+    height: 50px;
+}
+
+.card a{
+    text-decoration: none;
+}
+  </style>
+</head>
+<body>
+    
+  <div class="container" >
+    
+    <div class="card">
+        <button class="btn1"><a href="login.html" class="btn1" >home</a></button>
+      <h2>Recover Password</h2>
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="Your Email">
+      </div>
+      <button class="btn">Reset</button>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,405 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    appearance: none;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+}
+
+body{
+    font-family: "poppins", "sans-serif";
+    width: 100vw;
+    height: 100vh;
+    font-size: 14px;
+    user-select: none;
+    overflow-x: hidden;
+    background-color: #f6f6f6;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 14rem auto 14rem;
+    gap: 1.8rem;
+    width: 100%;
+    
+    /* margin: 0 auto; */
+    height: 100%;
+}
+
+a{
+    color: #369349;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+h5{
+    font-size: 12px;
+}
+
+aside{
+    height: 100vh;
+    width: 100%;
+}
+
+aside .top{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+aside .logo{
+    display: flex;
+    /* gap: 1rem; */
+}
+
+aside .sider-manu{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    top: 1rem;
+}
+
+aside h3{
+    font-weight: 400;
+}
+
+aside .sider-manu a{
+    display: flex;
+    color: #7d8da1;
+    margin-left: 32px;
+    gap: 1rem;
+    align-items: center;
+    height: 50px;
+    transition: all .1s ease-in;
+}
+
+aside .sider-manu a span{
+    font-size: 20px;
+    transition: all .1s ease-in;
+}
+
+aside .sider-manu a:last-child{
+    position: absolute;
+    bottom: 16px;
+    width: 100%;
+}
+
+aside .sider-manu a:active{
+    background: rgba(132, 139, 200, 0.18);
+    color: #111e88;
+    margin-left: 0%;
+    border-left: 5px solid #111e88;
+}
+
+aside .sider-manu a::before{
+    width: 6px;
+    height: 100%;
+    background-color: #111e88;
+}
+
+aside .sider-manu a:hover span{
+    margin-left: 16px;
+    transition: .4s ease;
+}
+
+/* Panding code and No understand this secsion/code. */
+
+
+
+/* aside .sider-manu a.msg_count{
+    background: #ff7782;
+    color: white;
+} */
+
+
+
+/* Start main section */
+
+
+main{
+    margin-top: 20px;
+    width: 100%;
+}
+
+main input{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: #363949;
+}
+
+main .date{
+    display: inline-block;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+main .main-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.6rem;
+}
+
+main .main-section .task{
+    background-color: white;
+    padding: 21px;
+    border-radius: 32px;
+    margin-top: 16px;
+    margin-right: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease;
+}
+
+main .main-section .task:hover{
+    box-shadow: none;
+}
+
+main .main-section .task i{
+    background-color: coral;
+    padding: 8px;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+}
+
+main .main-section .task .middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .main-section .task h3{
+    font-size: 24px;
+    color: #363949;
+}
+
+main .main-section .task .middle .progress h1{
+    color: #363949;
+}
+
+/* main .main-section .progress{
+    position: relative;
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+}
+
+main .main-section svg{
+    height: 150px;
+    position: absolute;
+    top: 0;
+}
+
+main .main-section svg circle{
+    fill: none;
+    stroke: #7380ec;
+    transform: rotate(270, 80, 80);
+    stroke-width: 5;
+} */
+
+main .recent_order{
+    margin-top: 32px;
+}
+
+main .recent_order table{
+    background-color: white;
+    width: 100%;
+    border-radius: 32px;
+    padding: 26px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease;
+    color: #363949;
+}
+
+main .recent_order table:hover{
+    box-shadow: none;
+}
+
+main .recent_order tbody tr{
+    height: 48px;
+    border-bottom: 1px solid #363949;
+    color: #677483;
+}
+
+main .recent_order tbody td{
+    height: 48px;
+    border-bottom: 1px solid #363949;
+}
+
+main .recent_order table tr:last-child{
+    border: none;
+}
+
+main .recent_order a{
+    align-items: center;
+    display: block;
+    margin: 1rem;
+}
+
+
+/* recent updates */
+/* nav bar 2 start now*/
+
+#navbar2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Card title */
+.card h4 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Main value inside card */
+.card .value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Subtext (e.g. '6 total orders') */
+.card .subtext {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Link (e.g. 'View Report') */
+.report-link {
+  color: #3f80ea;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Badge tags (Live, Visitors, etc.) */
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  color: white;
+}
+
+.tag.blue { background-color: #4dabf7; }
+.tag.purple { background-color: #b197fc; }
+.tag.green { background-color: #69db7c; }
+
+/* Legend for Customer Rate card */
+.legend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+
+.legend span {
+  display: flex;
+  align-items: center;
+}
+
+/* Dots in legend */
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.dot.blue { background-color: #3f80ea; }
+.dot.orange { background-color: #f77f00; }
+
+/* Placeholder for chart graphic (gradient area) */
+.chart-placeholder {
+  width: 100%;
+  height: 80px;
+  margin: 10px 0;
+  background: linear-gradient(to top, #e0f7fa, #fff);
+  border-radius: 8px;
+}
+/* media query main section 2*/
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .card-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .revenue h2 {
+    font-size: 1.3rem;
+  }
+
+  .tags {
+    justify-content: flex-start;
+  }
+
+  .legend {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #revenueChart {
+    height: 200px;
+  }
+
+  .chart-placeholder {
+    height: 60px;
+  }
+}

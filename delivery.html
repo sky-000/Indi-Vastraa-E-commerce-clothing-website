@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Panel</title>
+    <link rel="stylesheet" href="css/delivery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2>I<span class="logo-name">-VASTRAA</span></h2>
+                </div>
+                <div>
+                    <span class="fa-solid fa-xmark"></span>
+                </div>
+            </div>
+            <div class="sider-manu">
+                <a href="#">
+                    <span class="fa-solid fa-border-all"></span>
+                    <h3>Dashbbord</h3>
+                </a>
+                <a href="#">
+                    <span class="fa-solid fa-chart-simple"></span>
+                    <h3>Custumer</h3>
+                </a>
+                <a href="#">
+                    <span class="fa-solid fa-bolt"></span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="fa-solid fa-envelope"></span>
+                    <h3>Messages</h3>
+                </a>
+                <a href="#">
+                    <span class="fa-solid fa-scroll"></span>
+                    <h3>Products</h3>
+                </a>
+                <a href="#">
+                    <span class="fa-solid fa-exclamation"></span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="fa-solid fa-gear"></span>
+                    <h3>Setting</h3>
+                </a>
+                <a href="#">
+                    <span class="fa-solid fa-plus"></span>
+                    <h3>Add Product</h3>
+                </a>
+                <a href="#">
+                    <span class="fa-solid fa-arrow-right-from-bracket"></span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <main>
+            <h1>Dashbord</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="main-section">
+                <div class="task">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <div class="middle">
+                        <div class="progress">
+                            <h3>Total Menu</h3>
+                            <h1>325</h1>
+                        </div>
+                        <!-- <div>
+                            <svg>
+                                <circle r="30" cy="40" cx="40"></circle>
+                            </svg>
+                            <div class="percent">80%</div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="task">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <div class="middl">
+                        <div>
+                            <h3>Total Revenue</h3>
+                            <h1>$425k</h1>
+                        </div>
+                        <!-- <div>
+                            <svg>
+                                <circle r="30" cy="40" cx="40"></circle>
+                            </svg>
+                            <div class="percent">85%</div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="task">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <div class="middl">
+                        <div>
+                            <h3>Total Orders</h3>
+                            <h1>415</h1>
+                        </div>
+                        <!-- <div>
+                            <svg>
+                                <circle r="30" cy="40" cx="40"></circle>
+                            </svg>
+                            <div class="percent">70%</div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="task">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <div class="middl">
+                        <div>
+                            <h3>Total Customers</h3>
+                            <h1>985</h1>
+                        </div>
+                        <!-- <div>
+                            <svg>
+                                <circle r="30" cy="40" cx="40"></circle>
+                            </svg>
+
+                            <div class="percent">95%</div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- main end section start -->
+            <div class="recent_order">
+                <h1>Recent Orders</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payments</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Angaj Kumar</td>
+                            <td>000</td>
+                            <td>Done</td>
+                            <td>Pending</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>000</td>
+                            <td>Done</td>
+                            <td>Pending</td>
+                        </tr>
+                        <tr>
+                            <td>Angaj Kumar</td>
+                            <td>000</td>
+                            <td>Done</td>
+                            <td>Pending</td>
+                        </tr>
+                        <tr>
+                            <td>Angaj Kumar</td>
+                            <td>000</td>
+                            <td>Done</td>
+                            <td>Pending</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- main end section end -->
+
+        </main>
+<!--nav bar 2 start now-->
+      <div id="navbar2">
+        <!-- Total Sale Card -->
+  <div class="card">
+    <h4>Total Sale</h4>
+    <div class="value">$1000.0</div>
+    <div class="chart-placeholder"></div> <!-- Graph Placeholder -->
+    <div class="subtext" style="display: flex; justify-content: space-between;">
+      <span>0 total orders</span>
+      <a href="#" class="report-link">View Report</a>
+    </div>
+  </div>
+  <!-- Total Sessions Card -->
+  <div class="card">
+    <h4>Total Sessions</h4>
+    <div class="value">0000</div>
+    <div class="chart-placeholder"></div>
+    <div class="tags">
+      <span class="tag blue">Live</span>
+      <span class="tag purple">Visitors</span>
+      <span class="tag green">See Live View</span>
+    </div>
+  </div>
+
+  <!-- Customer Rate Card -->
+  <div class="card">
+    <h4>Customer rate</h4>
+    <div class="value">0.00%</div>
+    <div class="chart-placeholder"></div>
+    <div class="legend">
+      <span><span class="dot blue"></span> First Time</span>
+      <span><span class="dot orange"></span> Returning</span>
+    </div>
+  </div>
+
+  <!-- navbar2 end-->
+      </div>
+     </div>
+
+            </div>
+            <!-- Top section end -->
+        </div>
+    </div>
+</body>
+
+</html>

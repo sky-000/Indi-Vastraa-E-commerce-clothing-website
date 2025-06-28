@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- cdn for google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Carattere&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- cdn for font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- aos cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- here are all the css file links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+      <div class="loader"></div>
+    </div>
+
+    <!-- header section start here  -->
+    <div class="main-navbar shadow-lg sticky-top" data-aos="fade-down">
+      <div class="top-navbar">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block"
+            >
+              <h5 class="brand-name"><a href="index.html">Indi Vastraa</a></h5>
+            </div>
+            <div class="col-md-5 my-auto">
+              <form role="search">
+                <div class="input-group">
+                  <input
+                    type="search"
+                    placeholder="Search your product"
+                    class="form-control"
+                  />
+                  <button class="btn" type="submit">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-5 my-auto">
+              <ul class="nav justify-content-end">
+                 <li class="nav-item">
+                  <a class="nav-link" href="check-out.html"
+                    ><i class="fa fa-shopping-cart" id="cart-icon"></i> Checkout
+                    </a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shopping-cart.html"
+                    ><i class="fa fa-shopping-cart" id="cart-icon"></i> Cart
+                    (0)</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="fa fa-heart" id="wishlist-icon"></i> Wishlist
+                    (0)</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="index.html"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    ><i class="fa fa-user" id="user-icon"></i> Username</a
+                  >
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="fa fa-user"></i> Profile</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="fa fa-list"></i> My Orders</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        ><i class="fa fa-heart"></i> My Wishlist</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="shopping-cart.html"
+                        ><i class="fa fa-shopping-cart"></i> My Cart</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="login.html"
+                        ><i class="fa fa-sign-out"></i> Logout</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand d-block d-sm-block d-md-none d-lg-none"
+            href="index.html"
+            >IndiVastraa</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"><div></div></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="shop.html"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >All Categories <i class="fa fa-angle-down"></i
+                ></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="shop.html">Women’s Clothing</a>
+                  </li>
+                  <li><a class="dropdown-item" href="shop.html">Men’s Clothing</a></li>
+                  <li><a class="dropdown-item" href="shop.html">Kid's Clothing</a></li>
+                  <li><a class="dropdown-item" href="shop.html">Brand Fashion</a></li>
+                  <li><a class="dropdown-item" href="shop.html">Shoes</a></li>
+                  <li><a class="dropdown-item" href="shop.html">Luxury Brands</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#new-arrivals">New Arrivals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fashion">Fashions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#featured-products"
+                  >Featured Products</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#beauty-products">Beauty</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Accessories</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="shop.html">GenZ</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact us</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- header section ends here -->
+    <!-- hero section start here -->
+    <section class="hero-section">
+      <div class="hero-items owl-carousel">
+        <div class="single-hero-items set-bg" data-setbg="img/hero-1.jpg">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+                <span>Bag, kids</span>
+                <h1>Black Friday</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore
+                </p>
+                <a href="#" class="primary-btn">Shop Now</a>
+              </div>
+            </div>
+            <div class="off-card" data-aos="zoom-in" data-aos-delay="300">
+              <h2>Sale <span>50%</span></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="single-hero-items set-bg" data-setbg="img/hero-2.jpg">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+                <span>Bag, kids</span>
+                <h1>Black Friday</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore
+                </p>
+                <a href="#" class="primary-btn">Shop Now</a>
+              </div>
+            </div>
+            <div class="off-card" data-aos="zoom-in" data-aos-delay="300">
+              <h2>Sale <span>50%</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section ends here -->
+
+    <!-- Banner Section Begin -->
+    <div class="banner-section spad">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="0">
+            <div class="single-banner">
+              <img src="img/banner-1.jpg" alt="Men's Banner" />
+              <div class="inner-text">
+                <h4>Men’s</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="single-banner">
+              <img src="img/banner-2.jpg" alt="Women's Banner" />
+              <div class="inner-text">
+                <h4>Women’s</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="single-banner">
+              <img src="img/banner-3.jpg" alt="Kid's Banner" />
+              <div class="inner-text">
+                <h4>Kid’s</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Section End -->
+
+    <!-- new arrivals section start here -->
+    <section class="new-arrivals" data-aos="fade-up" id="new-arrivals">
+      <div class="new-arrivals-heading" data-aos="zoom-in">
+        <h2>New Arrivals</h2>
+      </div>
+      <div class="arrivals-grid">
+        <!-- Card 1 -->
+        <div
+          class="arrival-card"
+          style="background-image: url('img/girltanktop.avif')"
+          data-aos="fade-right"
+        >
+          <div class="arrival-content">
+            <h3>20% Off On Tank Tops</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
+              dictum.
+            </p>
+            <a href="#" class="arrival-btn">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="arrival-card"
+          style="background-image: url('img/mansunglasses2.avif')"
+          data-aos="zoom-in"
+        >
+          <div class="arrival-content">
+            <h3>Latest Eyewear For You</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
+              dictum.
+            </p>
+            <a href="#" class="arrival-btn">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="arrival-card"
+          style="background-image: url('img/suitup2.webp')"
+          data-aos="fade-left"
+        >
+          <div class="arrival-content">
+            <h3>Let's Lorem Suit Up!</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
+              dictum.
+            </p>
+            <a href="#" class="arrival-btn">Check Out</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- new arrivals section ends here -->
+
+    <!-- Women Banner Section Begin -->
+    <section class="women-banner spad" data-aos="fade-up" id="fashion">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Left Column: Large Banner -->
+          <div class="col-lg-3" data-aos="fade-right">
+            <div
+              class="product-large set-bg"
+              data-setbg="img/products/women-large.jpg"
+            >
+              <h2>Women’s</h2>
+              <a href="#">Discover More</a>
+            </div>
+          </div>
+
+          <!-- Right Column: Product Slider -->
+          <div class="col-lg-8 offset-lg-1" data-aos="fade-left">
+            <div class="filter-control" data-aos="zoom-in">
+              <ul>
+                <li class="active">Clothings</li>
+                <li>HandBag</li>
+                <li>Shoes</li>
+                <li>Accessories</li>
+              </ul>
+            </div>
+
+            <div class="product-slider owl-carousel" data-aos="fade-up">
+              <!-- Product 1 -->
+              <div class="product-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="pi-pic">
+                  <img src="img/products/women-1.jpg" alt="" />
+                  <div class="sale">Sale</div>
+                  <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                  <ul>
+                    <li class="w-icon active">
+                      <a href="#"><i class="fa-regular fa-clipboard"></i></a>
+                    </li>
+                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <li class="w-icon">
+                      <a href="#"><i class="fa fa-random"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pi-text">
+                  <div class="catagory-name">Coat</div>
+                  <a href="#"><h5>Pure Pineapple</h5></a>
+                  <div class="product-price">$14.00 <span>$35.00</span></div>
+                </div>
+              </div>
+
+              <!-- Product 2 -->
+              <div class="product-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="pi-pic">
+                  <img src="img/products/women-2.jpg" alt="" />
+                  <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                  <ul>
+                    <li class="w-icon active">
+                      <a href="#"><i class="fa-regular fa-clipboard"></i></a>
+                    </li>
+                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <li class="w-icon">
+                      <a href="#"><i class="fa fa-random"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pi-text">
+                  <div class="catagory-name">Shoes</div>
+                  <a href="#"><h5>Guangzhou sweater</h5></a>
+                  <div class="product-price">$13.00</div>
+                </div>
+              </div>
+
+              <!-- Product 3 -->
+              <div class="product-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="pi-pic">
+                  <img src="img/products/women-3.jpg" alt="" />
+                  <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                  <ul>
+                    <li class="w-icon active">
+                      <a href="#"><i class="fa-regular fa-clipboard"></i></a>
+                    </li>
+                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <li class="w-icon">
+                      <a href="#"><i class="fa fa-random"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pi-text">
+                  <div class="catagory-name">Towel</div>
+                  <a href="#"><h5>Pure Pineapple</h5></a>
+                  <div class="product-price">$34.00</div>
+                </div>
+              </div>
+
+              <!-- Product 4 -->
+              <div class="product-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="pi-pic">
+                  <img src="img/products/women-4.jpg" alt="" />
+                  <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                  <ul>
+                    <li class="w-icon active">
+                      <a href="#"><i class="fa-regular fa-clipboard"></i></a>
+                    </li>
+                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <li class="w-icon">
+                      <a href="#"><i class="fa fa-random"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pi-text">
+                  <div class="catagory-name">Towel</div>
+                  <a href="#"><h5>Converse Shoes</h5></a>
+                  <div class="product-price">$34.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Women Banner Section End -->
+
+    <!-- Man Banner Section Begin -->
+    <section class="man-banner spad" data-aos="fade-up">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Left Column: Product Slider -->
+          <div class="col-lg-8" data-aos="fade-right">
+            <div class="filter-control" data-aos="zoom-in">
+              <ul>
+                <li class="active">Clothings</li>
+                <li>HandBag</li>
+                <li>Shoes</li>
+                <li>Accessories</li>
+              </ul>
+            </div>
+            <div class="product-slider owl-carousel" data-aos="fade-up">
+              <!-- Product 1 -->
+              <div class="product-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="pi-pic">
+                  <img src="img/products/man-1.jpg" alt="" />
+                  <div class="sale">Sale</div>
+                  <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                  <ul>
+                    <li class="w-icon active">
+                      <a href="#"><i class="fa-regular fa-clipboard"></i></a>
+                    </li>
+                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <li class="w-icon">
+                      <a href="#"><i class="fa fa-random"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pi-text">
+                  <div class="catagory-name">Coat</div>
+                  <a href="#"><h5>Pure Pineapple</h5></a>
+                  <div class="product-price">$14.00 <span>$35.00</span></div>
+                </div>
+              </div>
+
+              <!-- Product 2 -->
+              <div class="product-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="pi-pic">
+                  <img src="img/products/man-2.jpg" alt="" />
+                  <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                  <ul>
+                    <li class="w-icon active">
+                      <a href="#"><i class="fa-regular fa-clipboard"></i></a>
+                    </li>
+                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <li class="w-icon">
+                      <a href="#"><i class="fa fa-random"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pi-text">
+                  <div class="catagory-name">Shoes</div>
+                  <a href="#"><h5>Guangzhou sweater</h5></a>
+                  <div class="product-price">$13.00</div>
+                </div>
+              </div>
+
+              <!-- Product 3 -->
+              <div class="product-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="pi-pic">
+                  <img src="img/products/man-3.jpg" alt="" />
+                  <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                  <ul>
+                    <li class="w-icon active">
+                      <a href="#"><i class="fa-regular fa-clipboard"></i></a>
+                    </li>
+                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <li class="w-icon">
+                      <a href="#"><i class="fa fa-random"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pi-text">
+                  <div class="catagory-name">Towel</div>
+                  <a href="#"><h5>Pure Pineapple</h5></a>
+                  <div class="product-price">$34.00</div>
+                </div>
+              </div>
+
+              <!-- Product 4 -->
+              <div class="product-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="pi-pic">
+                  <img src="img/products/man-4.jpg" alt="" />
+                  <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                  <ul>
+                    <li class="w-icon active">
+                      <a href="#"><i class="fa-regular fa-clipboard"></i></a>
+                    </li>
+                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <li class="w-icon">
+                      <a href="#"><i class="fa fa-random"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pi-text">
+                  <div class="catagory-name">Towel</div>
+                  <a href="#"><h5>Converse Shoes</h5></a>
+                  <div class="product-price">$34.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Large Banner -->
+          <div class="col-lg-3 offset-lg-1" data-aos="fade-left">
+            <div
+              class="product-large set-bg m-large"
+              data-setbg="img/products/man-large.jpg"
+            >
+              <h2>Men’s</h2>
+              <a href="#">Discover More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Man Banner Section End -->
+
+    <!-- Deal Of The Week Section Begin-->
+    <section
+      class="deal-of-week set-bg spad"
+      data-setbg="img/time-bg.jpg"
+      data-aos="fade-up"
+    >
+      <div class="container">
+        <div class="col-lg-6 text-center" data-aos="zoom-in">
+          <div class="section-title" data-aos="fade-down">
+            <h2>Deal Of The Week</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed<br />
+              do ipsum dolor sit amet, consectetur adipisicing elit
+            </p>
+            <div class="product-price" data-aos="fade-up" data-aos-delay="100">
+              $35.00
+              <span>/ HanBag</span>
+            </div>
+          </div>
+
+          <div
+            class="countdown-timer"
+            id="countdown"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="cd-item">
+              <span>56</span>
+              <p>Days</p>
+            </div>
+            <div class="cd-item">
+              <span>12</span>
+              <p>Hrs</p>
+            </div>
+            <div class="cd-item">
+              <span>40</span>
+              <p>Mins</p>
+            </div>
+            <div class="cd-item">
+              <span>52</span>
+              <p>Secs</p>
+            </div>
+          </div>
+
+          <a
+            href="#"
+            class="primary-btn"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Deal Of The Week Section End -->
+
+    <!-- Featured Products Section Begin -->
+    <section
+      class="featured-products py-5"
+      data-aos="fade-up"
+      id="featured-products"
+    >
+      <div class="container">
+        <div class="product-heading">
+          <h2 class="section-title" data-aos="zoom-in" data-aos-delay="100">
+            Featured Products
+          </h2>
+        </div>
+        <div class="product-grid">
+          <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+            <span class="badge">Sale!</span>
+            <div class="product-image">
+              <img src="img/sports-shoe3.jpg" alt="DNK Yellow Shoes" />
+            </div>
+            <div class="product-info">
+              <h5>DNK Yellow Shoes</h5>
+              <p class="category">Men</p>
+              <p class="price">
+                <span class="old-price">$150.00</span> $120.00
+              </p>
+              <div class="rating">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="product-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="product-image">
+              <img src="img/sports-shoe1.jpg" alt="DNK Blue Shoes" />
+            </div>
+            <div class="product-info">
+              <h5>DNK Blue Shoes</h5>
+              <p class="category">Men</p>
+              <p class="price">$200.00 – $240.00</p>
+              <div class="color-dots">
+                <span class="dot blue"></span>
+                <span class="dot green"></span>
+                <span class="dot orange"></span>
+              </div>
+              <div class="rating">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="product-image">
+              <img src="img/product-m-jeans1.jpg" alt="Dark Brown Jeans" />
+            </div>
+            <div class="product-info">
+              <h5>Dark Brown Jeans</h5>
+              <p class="category">Men</p>
+              <p class="price">$150.00</p>
+              <div class="rating">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="product-card" data-aos="fade-up" data-aos-delay="250">
+            <div class="product-image">
+              <img src="img/product-w-jeans2.jpg" alt="Blue Denim Jeans" />
+            </div>
+            <div class="product-info">
+              <h5>Blue Denim Jeans</h5>
+              <p class="category">Women</p>
+              <p class="price">$150.00</p>
+              <div class="rating">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="product-image">
+              <img src="img/product-w-jeans4.jpg" alt="Basic Gray Jeans" />
+            </div>
+            <div class="product-info">
+              <h5>Basic Gray Jeans</h5>
+              <p class="category">Women</p>
+              <p class="price">$150.00</p>
+              <div class="rating">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="product-card" data-aos="fade-up" data-aos-delay="350">
+            <span class="badge">Sale!</span>
+            <div class="product-image">
+              <img src="img/product-w-jeans1.jpg" alt="DNK Shorts" />
+            </div>
+            <div class="product-info">
+              <h5>DNK Shorts</h5>
+              <p class="category">Women</p>
+              <p class="price">
+                <span class="old-price">$150.00</span> $120.00
+              </p>
+              <div class="rating">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="product-image">
+              <img src="img/product-accessory2.jpg" alt="Blue Denim Jeans" />
+            </div>
+            <div class="product-info">
+              <h5>Blue Denim Jeans</h5>
+              <p class="category">Women</p>
+              <p class="price">$150.00</p>
+              <div class="rating">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="product-card" data-aos="fade-up" data-aos-delay="450">
+            <div class="product-image">
+              <img
+                src="img/product-accessory1.jpg"
+                alt="Boho Bangle Bracelet"
+              />
+            </div>
+            <div class="product-info">
+              <h5>Boho Bangle Bracelet</h5>
+              <p class="price">$75.00</p>
+              <div class="rating">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="product-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="product-image">
+              <img src="img/product-bag1.jpg" alt="Light Brown Purse" />
+            </div>
+            <div class="product-info">
+              <h5>Light Brown Purse</h5>
+              <p class="price">$110.00</p>
+              <div class="rating">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="product-card" data-aos="fade-up" data-aos-delay="550">
+            <div class="product-image">
+              <img src="img/product-bag3.jpg" alt="Blue Denim Jeans" />
+            </div>
+            <div class="product-info">
+              <h5>Blue Denim Jeans</h5>
+              <p class="category">Women</p>
+              <p class="price">$150.00</p>
+              <div class="rating">★★★★★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Products Section End -->
+
+    <!-- beauty section starts here -->
+
+    <div class="product-heading">
+      <h2 class="section-title" data-aos="zoom-in" data-aos-delay="100">
+        Beauty Products
+      </h2>
+    </div>
+    <section class="beauty-grid" id="beauty-products">
+      <div
+        class="beauty-card beauty-ad"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <img src="img/tresemmeagrgan.webp" alt="TRESemme" />
+        <span class="beauty-ad-label">AD</span>
+        <div class="beauty-info">
+          <div class="beauty-rating">
+            <span>4.6</span> ★ | <span>23.2k</span>
+          </div>
+          <h3>TRESemme</h3>
+          <p>Anti Frizz Argan Shampoo 1L</p>
+          <p class="beauty-price">
+            Rs. 808 <span class="old">Rs. 1616</span>
+            <span class="off">(50% OFF)</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="beauty-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="img/loreal hair repair mask.webp" alt="Loreal" />
+        <div class="beauty-info">
+          <div class="beauty-rating">
+            <span>4.5</span> ★ | <span>12.8k</span>
+          </div>
+          <h3>LOreal Professionnel</h3>
+          <p>Absolut Repair Hair Mask-250g</p>
+          <p class="beauty-price">Rs. 990</p>
+        </div>
+      </div>
+
+      <div class="beauty-card" data-aos="fade-up" data-aos-delay="300">
+        <img src="img/plum.avif" alt="Plum" />
+        <div class="beauty-info">
+          <div class="beauty-rating"><span>4.5</span> ★ | <span>13k</span></div>
+          <h3>Plum</h3>
+          <p>Niacinamide Toner 150 ml</p>
+          <p class="beauty-price">
+            Rs. 400 <span class="old">Rs. 440</span>
+            <span class="off">(9% OFF)</span>
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="beauty-card beauty-ad"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
+        <img src="img/facial hair remover.jpg" alt="Braun" />
+        <span class="beauty-ad-label">AD</span>
+        <div class="beauty-info">
+          <div class="beauty-rating"><span>4.5</span> ★ | <span>6k</span></div>
+          <h3>Braun</h3>
+          <p>Facial Hair Remover FS1000</p>
+          <p class="beauty-price">
+            Rs. 1869 <span class="old">Rs. 2199</span>
+            <span class="off">(15% OFF)</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="beauty-card" data-aos="fade-up" data-aos-delay="500">
+        <img src="img/doveshampoo.webp" alt="Dove" />
+        <div class="beauty-info">
+          <div class="beauty-rating">
+            <span>4.6</span> ★ | <span>6.5k</span>
+          </div>
+          <h3>Dove</h3>
+          <p>Unisex Daily Shine Shampoo 1L</p>
+          <p class="beauty-price">
+            Rs. 715 <span class="old">Rs. 1431</span>
+            <span class="off">(50% OFF)</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="beauty-card" data-aos="fade-up" data-aos-delay="600">
+        <img src="img/lakmeultimateglam.jpg" alt="Lakme Compact" />
+        <div class="beauty-info">
+          <div class="beauty-rating">
+            <span>4.4</span> ★ | <span>11.2k</span>
+          </div>
+          <h3>Lakme</h3>
+          <p>Ultimate Glam Compact</p>
+          <p class="beauty-price">
+            Rs. 217 <span class="old">Rs. 290</span>
+            <span class="off">(25% OFF)</span>
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="beauty-card beauty-ad"
+        data-aos="fade-up"
+        data-aos-delay="700"
+      >
+        <img src="img/tresemmedefense.webp" alt="TRESemme AD 2" />
+        <span class="beauty-ad-label">AD</span>
+        <div class="beauty-info">
+          <h3>TreSemme</h3>
+          <p>Hairfall Defense + Shampoo 1L</p>
+          <p class="beauty-price">Rs. 1351</p>
+        </div>
+      </div>
+
+      <div class="beauty-card" data-aos="fade-up" data-aos-delay="800">
+        <img src="img/lakmefoundation.avif" alt="Lakme Foundation" />
+        <div class="beauty-info">
+          <div class="beauty-rating">
+            <span>4.6</span> ★ | <span>18.7k</span>
+          </div>
+          <h3>Lakme</h3>
+          <p>Xtraordin-airy Foundation</p>
+          <p class="beauty-price">
+            Rs. 599 <span class="old">Rs. 999</span>
+            <span class="off">(40% OFF)</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="beauty-card" data-aos="fade-up" data-aos-delay="900">
+        <img src="img/myballineage.jpeg" alt="Maybelline Concealer" />
+        <div class="beauty-info">
+          <div class="beauty-rating">
+            <span>4.5</span> ★ | <span>3.1k</span>
+          </div>
+          <h3>Maybelline</h3>
+          <p>Instant Age Rewind Concealer</p>
+          <p class="beauty-price">
+            Rs. 486 <span class="old">Rs. 749</span>
+            <span class="off">(35% OFF)</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="beauty-card" data-aos="fade-up" data-aos-delay="1000">
+        <img src="img/indulekha.jpg" alt="Indulekha" />
+        <div class="beauty-info">
+          <div class="beauty-rating">
+            <span>4.4</span> ★ | <span>7.1k</span>
+          </div>
+          <h3>indulekha</h3>
+          <p>Bringha Hair Oil 50 ml</p>
+          <p class="beauty-price">
+            Rs. 182 <span class="old">Rs. 234</span>
+            <span class="off">(22% OFF)</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- beauty section ends here -->
+
+    <!-- Instagram Section Begin -->
+    <div class="instagram-photo">
+      <div
+        class="insta-item set-bg"
+        data-setbg="img/angaj2.jpg"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <div class="inside-text">
+          <i class="fa-brands fa-instagram"></i>
+          <h5><a href="#">Indi-Vastraa Collection</a></h5>
+        </div>
+      </div>
+      <div
+        class="insta-item set-bg"
+        data-setbg="img/insta-2.jpg"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <div class="inside-text">
+          <i class="fa-brands fa-instagram"></i>
+          <h5><a href="#">Indi-Vastraa Collection</a></h5>
+        </div>
+      </div>
+      <div
+        class="insta-item set-bg"
+        data-setbg="img/shubham.jpg"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
+        <div class="inside-text">
+          <i class="fa-brands fa-instagram"></i>
+          <h5><a href="#">Indi-Vastraa Collection</a></h5>
+        </div>
+      </div>
+      <div
+        class="insta-item set-bg"
+        data-setbg="img/rajababu.jpg"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
+        <div class="inside-text">
+          <i class="fa-brands fa-instagram"></i>
+          <h5><a href="#">Indi-Vastraa Collection</a></h5>
+        </div>
+      </div>
+      <div
+        class="insta-item set-bg"
+        data-setbg="img/shubham2.jpg"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        style=" 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center calc(50% - 20px);"
+      >
+        <div class="inside-text">
+          <i class="fa-brands fa-instagram"></i>
+          <h5><a href="#">Indi-Vastraa Collection</a></h5>
+        </div>
+      </div>
+      <div
+        class="insta-item set-bg"
+        data-setbg="img/adarsh2.jpg"
+        data-aos="fade-up"
+        data-aos-delay="600"
+      >
+        <div class="inside-text">
+          <i class="fa-brands fa-instagram"></i>
+          <h5><a href="#">Indi-Vastraa Collection</a></h5>
+        </div>
+      </div>
+    </div>
+    <!-- Instagram Section End -->
+
+    <!-- Latest Blog Section Begin -->
+    <section class="latest-blog spad" id="blogs">
+      <div class="container">
+        <div class="row">
+          <div class="product-heading">
+            <h2 class="section-title" data-aos="zoom-in" data-aos-delay="100">
+              From the Blog
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="single-latest-blog">
+              <img src="img/latest-1.jpg" alt="" />
+              <div class="latest-text">
+                <div class="tag-list">
+                  <div class="tag-item">
+                    <i class="fa fa-calendar-o"></i>
+                    May 4,2019
+                  </div>
+                  <div class="tag-item">
+                    <i class="fa fa-comment-o"></i>
+                    5
+                  </div>
+                </div>
+                <a href="#">
+                  <h4>The Best Street Style From London Fashion Week</h4>
+                </a>
+                <p>
+                  Sed quia non numquam modi tempora indunt ut labore et dolore
+                  magnam aliquam quaerat
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="single-latest-blog">
+              <img src="img/latest-2.jpg" alt="" />
+              <div class="latest-text">
+                <div class="tag-list">
+                  <div class="tag-item">
+                    <i class="fa fa-calendar-o"></i>
+                    May 4,2019
+                  </div>
+                  <div class="tag-item">
+                    <i class="fa fa-comment-o"></i>
+                    5
+                  </div>
+                </div>
+                <a href="#">
+                  <h4>Vogue's Ultimate Guide To Autumn/Winter 2019 Shoes</h4>
+                </a>
+                <p>
+                  Sed quia non numquam modi tempora indunt ut labore et dolore
+                  magnam aliquam quaerat
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="single-latest-blog">
+              <img src="img/latest-3.jpg" alt="" />
+              <div class="latest-text">
+                <div class="tag-list">
+                  <div class="tag-item">
+                    <i class="fa fa-calendar-o"></i>
+                    May 4,2019
+                  </div>
+                  <div class="tag-item">
+                    <i class="fa fa-comment-o"></i>
+                    5
+                  </div>
+                </div>
+                <a href="#">
+                  <h4>How To Brighten Your Wardrobe With A Dash Of Lime</h4>
+                </a>
+                <p>
+                  Sed quia non numquam modi tempora indunt ut labore et dolore
+                  magnam aliquam quaerat
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="benefit-items">
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+              <div class="single-benefit">
+                <div class="sb-icon">
+                  <img src="img/icon-1.png" alt="" />
+                </div>
+                <div class="sb-text">
+                  <h6>Free Shipping</h6>
+                  <p>For all order over 99$</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="single-benefit">
+                <div class="sb-icon">
+                  <img src="img/icon-2.png" alt="" />
+                </div>
+                <div class="sb-text">
+                  <h6>Delivery On Time</h6>
+                  <p>If good have prolems</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-left" data-aos-delay="300">
+              <div class="single-benefit">
+                <div class="sb-icon">
+                  <img src="img/icon-1.png" alt="" />
+                </div>
+                <div class="sb-text">
+                  <h6>Secure Payment</h6>
+                  <p>100% secure payment</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Latest Blog Section End -->
+    <!-- Partner Logo Section Begin -->
+    <div class="partner-logo">
+      <div class="container">
+        <div class="logo-carousel owl-carousel">
+          <div class="logo-item">
+            <div class="tablecell-inner">
+              <img src="img/logo-carousel/logo-1.png" alt="" />
+            </div>
+          </div>
+          <div class="logo-item">
+            <div class="tablecell-inner">
+              <img src="img/logo-carousel/logo-2.png" alt="" />
+            </div>
+          </div>
+          <div class="logo-item">
+            <div class="tablecell-inner">
+              <img src="img/logo-carousel/logo-3.png" alt="" />
+            </div>
+          </div>
+          <div class="logo-item">
+            <div class="tablecell-inner">
+              <img src="img/logo-carousel/logo-4.png" alt="" />
+            </div>
+          </div>
+          <div class="logo-item">
+            <div class="tablecell-inner">
+              <img src="img/logo-carousel/logo-5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Partner Logo Section End -->
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3" data-aos="fade-right" data-aos-delay="100">
+            <div class="footer-left">
+              <div class="footer-logo">
+                <div
+                  class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block"
+                >
+                  <h5 class="brand-name">Indi Vastraa</h5>
+                </div>
+              </div>
+              <ul>
+                <li>Address: Exhibition road, Patna, Bihar</li>
+                <li>Phone: +91 1234567890</li>
+                <li>Email: hello.sky@gmail.com</li>
+              </ul>
+              <div class="footer-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 offset-lg-1"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="footer-widget">
+              <h5>Information</h5>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Checkout</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300">
+            <div class="footer-widget">
+              <h5>My Account</h5>
+              <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Shopping Cart</a></li>
+                <li><a href="#">Shop</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-left" data-aos-delay="400">
+            <div class="newslatter-item">
+              <h5>Join Our Newsletter Now</h5>
+              <p>
+                Get E-mail updates about our latest shop and special offers.
+              </p>
+              <form action="#" class="subscribe-form">
+                <input type="text" placeholder="Enter Your Mail" />
+                <button type="button">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-reserved" data-aos="fade-up" data-aos-delay="500">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="copyright-text">
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This template is made with
+                <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                <a href="#" target="_blank">SKY</a>
+              </div>
+              <div class="payment-pic">
+                <img src="img/payment-method.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- aos cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    </script>
+    <!-- Js Plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.dd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
