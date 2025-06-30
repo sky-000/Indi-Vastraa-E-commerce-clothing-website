@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>IndiVastraa/home/shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- cdn for google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Carattere&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- cdn for font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- aos cdn -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- here are all the css file links -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/themify-icons.css" type="text/css" />
+  <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+  <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+  <!-- Page Preloder -->
+  <div id="preloder">
+    <div class="loader"></div>
+  </div>
+
+  <!-- header section start here  -->
+  <div class="main-navbar shadow-lg sticky-top" data-aos="fade-down">
+    <div class="top-navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+            <h5 class="brand-name"><a href="index.html">Indi Vastraa</a></h5>
+          </div>
+          <div class="col-md-5 my-auto">
+            <form role="search">
+              <div class="input-group">
+                <input type="search" placeholder="Search your product" class="form-control" />
+                <button class="btn" type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5 my-auto">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-shopping-cart" id="cart-icon"></i> Cart
+                  (0)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-heart" id="wishlist-icon"></i> Wishlist
+                  (0)</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false"><i class="fa fa-user" id="user-icon"></i> Username</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="fa fa-list"></i> My Orders</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="fa fa-heart"></i> My Wishlist</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="fa fa-shopping-cart"></i> My Cart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href="index.html">IndiVastraa</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <div></div>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">All Categories <i class="fa fa-angle-down"></i></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="shop.html">Women’s Clothing</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="shop.html">Men’s Clothing</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="shop.html">Kid's Clothing</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="shop.html">Brand Fashion</a>
+                </li>
+                <li><a class="dropdown-item" href="shop.html">Shoes</a></li>
+                <li>
+                  <a class="dropdown-item" href="shop.html">Luxury Brands</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#new-arrivals">New Arrivals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fashion">Fashions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#featured-products">Featured Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#beauty-products">Beauty</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accessories</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">GenZ</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blogs">Blogs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- header section ends here -->
+
+  <!--shop section starts from here-->
+  <section class="shop-containers">
+    <div class="shop-sidebar">
+      <input type="text" id="productSearch" class="form-control mb-3" placeholder="Search products..." />
+
+      <h6>Max Price: <span id="maxPriceLabel">$500</span></h6>
+      <input type="range" id="maxPrice" class="form-range mb-3" min="0" max="600" step="10" value="500" />
+      <div class="category mb-3">
+        <h5>Category</h5>
+        <div>
+          <input class="form-check-input category-filter" type="checkbox" value="men" />
+          Men
+        </div>
+        <div>
+          <input class="form-check-input category-filter" type="checkbox" value="women" />
+          Women
+        </div>
+        <div>
+          <input class="form-check-input category-filter" type="checkbox" value="accessories" />
+          Accessories
+        </div>
+      </div>
+      <div class="brand mb-3">
+        <h5>Brand</h5>
+        <div>
+          <input class="form-check-input brand-filter" type="checkbox" value="Nike" />
+          Nike
+        </div>
+        <div>
+          <input class="form-check-input brand-filter" type="checkbox" value="Adidas" />
+          Adidas
+        </div>
+        <div>
+          <input class="form-check-input brand-filter" type="checkbox" value="Puma" />
+          Puma
+        </div>
+        <div>
+          <input class="form-check-input brand-filter" type="checkbox" value="Zara" />
+          Zara
+        </div>
+        <div>
+          <input class="form-check-input brand-filter" type="checkbox" value="Levi's" />
+          Levi's
+        </div>
+        <div>
+          <input class="form-check-input brand-filter" type="checkbox" value="H&M" />
+          H&M
+        </div>
+        <div>
+          <input class="form-check-input brand-filter" type="checkbox" value="Gucci" />
+          Gucci
+        </div>
+        <div>
+          <input class="form-check-input brand-filter" type="checkbox" value="Allen Solly" />
+          Allen Solly
+        </div>
+      </div>
+    </div>
+
+    <div class="shop-content">
+      <div class="products-container">
+        <div class="controls mb-3">
+          <select id="sortBy" class="form-select">
+            <option value="default">Default</option>
+            <option value="asc">Price ↑</option>
+            <option value="desc">Price ↓</option>
+          </select>
+          <select id="perPage" class="form-select">
+            <option value="6">6</option>
+            <option value="12" selected>12</option>
+            <option value="18">18</option>
+          </select>
+          <span id="resultsInfo" class="float-end"></span>
+        </div>
+        <div class="row" id="productGrid"></div>
+        <nav>
+          <ul class="pagination mt-3" id="pagination"></ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!--shop section ends here-->
+  <!-- Partner Logo Section Begin -->
+  <div class="partner-logo">
+    <div class="container">
+      <div class="logo-carousel owl-carousel">
+        <div class="logo-item">
+          <div class="tablecell-inner">
+            <img src="img/logo-carousel/logo-1.png" alt="" />
+          </div>
+        </div>
+        <div class="logo-item">
+          <div class="tablecell-inner">
+            <img src="img/logo-carousel/logo-2.png" alt="" />
+          </div>
+        </div>
+        <div class="logo-item">
+          <div class="tablecell-inner">
+            <img src="img/logo-carousel/logo-3.png" alt="" />
+          </div>
+        </div>
+        <div class="logo-item">
+          <div class="tablecell-inner">
+            <img src="img/logo-carousel/logo-4.png" alt="" />
+          </div>
+        </div>
+        <div class="logo-item">
+          <div class="tablecell-inner">
+            <img src="img/logo-carousel/logo-5.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Partner Logo Section End -->
+  <!-- Footer Section Begin -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3" data-aos="fade-right" data-aos-delay="100">
+          <div class="footer-left">
+            <div class="footer-logo">
+              <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+                <h5 class="brand-name">Indi Vastraa</h5>
+              </div>
+            </div>
+            <ul>
+              <li>Address: Exhibition road, Patna, Bihar</li>
+              <li>Phone: +91 1234567890</li>
+              <li>Email: hello.sky@gmail.com</li>
+            </ul>
+            <div class="footer-social">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 offset-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <div class="footer-widget">
+            <h5>Information</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300">
+          <div class="footer-widget">
+            <h5>My Account</h5>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Shopping Cart</a></li>
+              <li><a href="#">Shop</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="fade-left" data-aos-delay="400">
+          <div class="newslatter-item">
+            <h5>Join Our Newsletter Now</h5>
+            <p>
+              Get E-mail updates about our latest shop and special offers.
+            </p>
+            <form action="#" class="subscribe-form">
+              <input type="text" placeholder="Enter Your Mail" />
+              <button type="button">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-reserved" data-aos="fade-up" data-aos-delay="500">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="copyright-text">
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All rights reserved | This template is made with
+              <i class="fa fa-heart-o" aria-hidden="true"></i> by
+              <a href="#" target="_blank">SKY</a>
+            </div>
+            <div class="payment-pic">
+              <img src="img/payment-method.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  </script>
+  <!-- Js Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.nice-select.min.js"></script>
+  <script src="js/jquery.zoom.min.js"></script>
+  <script src="js/jquery.dd.min.js"></script>
+  <script src="js/jquery.slicknav.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    const products = [
+      {
+        id: 1,
+        name: "Yellow shoe",
+        price: 257,
+        category: "men",
+        brand: "Nike",
+        img: "img/products/man-2.jpg",
+      },
+      {
+        id: 2,
+        name: "Adidas Jacket",
+        price: 261,
+        category: "men",
+        brand: "Adidas",
+        img: "img/products/man-3.jpg",
+      },
+      {
+        id: 3,
+        name: "Puma Shorts",
+        price: 172,
+        category: "men",
+        brand: "Puma",
+        img: "img/products/man-4.jpg",
+      },
+      {
+        id: 4,
+        name: "shirt",
+        price: 157,
+        category: "men",
+        brand: "Levi's",
+        img: "img/products/product-3.jpg",
+      },
+      {
+        id: 5,
+        name: "yellow cap",
+        price: 236,
+        category: "men",
+        brand: "H&M",
+        img: "img/products/product-5.jpg",
+      },
+      {
+        id: 6,
+        name: "scaf",
+        price: 236,
+        category: "men",
+        brand: "Zara",
+        img: "img/products/product-4.jpg",
+      },
+      {
+        id: 7,
+        name: "blue jins",
+        price: 385,
+        category: "men",
+        brand: "Tommy Hilfiger",
+        img: "img/blue jins.jpg",
+      },
+      {
+        id: 8,
+        name: "Cotton-jersey T-shirt",
+        price: 186,
+        category: "men",
+        brand: "Calvin Klein",
+        img: "img/Cotton-jersey T-shirt.jpeg",
+      },
+      {
+        id: 9,
+        name: "Oxford Shirt",
+        price: 358,
+        category: "men",
+        brand: "Under Armour",
+        img: "img/Oxford Shirt.jpeg",
+      },
+      {
+        id: 10,
+        name: "Cargo Pants Cotton",
+        price: 289,
+        category: "men",
+        brand: "Reebok",
+        img: "img/Cargo Pants Cotton.jpg",
+      },
+      {
+        id: 11,
+        name: "Gap Hoodie",
+        price: 366,
+        category: "men",
+        brand: "Gap",
+        img: "img/blue_tisurt.webp",
+      },
+      {
+        id: 12,
+        name: "white ti-shirt",
+        price: 321,
+        category: "men",
+        brand: "Lacoste",
+        img: "img/tisurt_white.webp",
+      },
+      {
+        id: 13,
+        name: "blue-denim",
+        price: 202,
+        category: "men",
+        brand: "The North Face",
+        img: "img/full_set.webp",
+      },
+      {
+        id: 14,
+        name: "black-jins",
+        price: 326,
+        category: "men",
+        brand: "Columbia",
+        img: "img/black_jins.webp",
+      },
+      {
+        id: 15,
+        name: "gray jins",
+        price: 356,
+        category: "men",
+        brand: "Jack & Jones",
+        img: "img/gray_jins.webp",
+      },
+      {
+        id: 16,
+        name: "blue tisurt",
+        price: 396,
+        category: "men",
+        brand: "Pepe Jeans",
+        img: "img/nev_tisurt.webp",
+      },
+      {
+        id: 17,
+        name: "campush shoe",
+        price: 222,
+        category: "men",
+        brand: "Flying Machine",
+        img: "img/sports-shoe1.jpg",
+      },
+      {
+        id: 18,
+        name: "sports shoe",
+        price: 225,
+        category: "men",
+        brand: "Mufti",
+        img: "img/sports-shoe3.jpg",
+      },
+      {
+        id: 19,
+        name: "sun glasses",
+        price: 200,
+        category: "men",
+        brand: "Wrangler",
+        img: "img/mansunglasses.avif",
+      },
+      {
+        id: 20,
+        name: "white ti-shirt",
+        price: 331,
+        category: "men",
+        brand: "Diesel",
+        img: "img/mansunglasses2.avif",
+      },
+      {
+        id: 21,
+        name: "hot-pant",
+        price: 454,
+        category: "women",
+        brand: "Zara",
+        img: "img/hot-pant.avif",
+      },
+      {
+        id: 22,
+        name: "w-jeans",
+        price: 272,
+        category: "women",
+        brand: "Adidas",
+        img: "img/w-jeans.jpg",
+      },
+      {
+        id: 23,
+        name: "black-dress",
+        price: 561,
+        category: "women",
+        brand: "Gucci",
+        img: "img/insta4.jpg",
+      },
+      {
+        id: 24,
+        name: "brown-jeans",
+        price: 183,
+        category: "women",
+        brand: "H&M",
+        img: "img/brown-jeans.jpg",
+      },
+      {
+        id: 25,
+        name: "Denim Shirt",
+        price: 332,
+        category: "women",
+        brand: "Forever 21",
+        img: "img/Denim shirt.avif",
+      },
+      {
+        id: 26,
+        name: "Frill-Trimmed Blouse",
+        price: 242,
+        category: "women",
+        brand: "Dior",
+        img: "img/Frill-trimmed blouse.avif",
+      },
+      {
+        id: 27,
+        name: "Oversized T-Shirt",
+        price: 373,
+        category: "women",
+        brand: "Chanel",
+        img: "img/Oversized T-shirt.avif",
+      },
+      {
+        id: 28,
+        name: "Wide High Ankle Jeans",
+        price: 222,
+        category: "women",
+        brand: "Uniqlo",
+        img: "img/Wide High Ankle Jeans.avif",
+      },
+      {
+        id: 29,
+        name: "Straight Regular Ankle Jeans",
+        price: 387,
+        category: "women",
+        brand: "Mango",
+        img: "img/Straight Regular Ankle Jeans.avif",
+      },
+      {
+        id: 30,
+        name: "Gathered top",
+        price: 295,
+        category: "women",
+        brand: "ASOS",
+        img: "img/Gathered top.avif",
+      },
+      {
+        id: 31,
+        name: "Linen-Blend Tapered Trousers",
+        price: 409,
+        category: "women",
+        brand: "Bershka",
+        img: "img/Linen-blend tapered trousers.avif",
+      },
+      {
+        id: 32,
+        name: "Printed T-Shirt",
+        price: 364,
+        category: "women",
+        brand: "Stradivarius",
+        img: "img/Printed T-shirt.avif",
+      },
+      // {
+      //   id: 33,
+      //   name: "Cotton blouse",
+      //   price: 514,
+      //   category: "women",
+      //   brand: "Louis Vuitton",
+      //   img: "img/Cotton blouse.avif",
+      // },
+      // {
+      //   id: 34,
+      //   name: "Wide Jeans",
+      //   price: 510,
+      //   category: "women",
+      //   brand: "Gucci",
+      //   img: "img/Wide jeans.avif",
+      // },
+      {
+        id: 35,
+        name: "Red LIVA Straight Kurta",
+        price: 507,
+        category: "women",
+        brand: "Zara",
+        img: "img/Red LIVA Straight Kurta.webp",
+      },
+      {
+        id: 36,
+        name: "Orange Cotton Blend Straight Kurta",
+        price: 591,
+        category: "women",
+        brand: "H&M",
+        img: "img/Orange Cotton Blend Straight Kurta.jpg",
+      },
+      {
+        id: 37,
+        name: "Cotton blouse",
+        price: 499,
+        category: "women",
+        brand: "Mango",
+        img: "img/Cotton blouse.avif",
+      },
+      {
+        id: 38,
+        name: "Wide Jeans",
+        price: 428,
+        category: "women",
+        brand: "Chanel",
+        img: "img/Wide jeans.avif",
+      },
+      // {
+      //   id: 39,
+      //   name: "Red LIVA Straight Kurta",
+      //   price: 551,
+      //   category: "women",
+      //   brand: "Uniqlo",
+      //   img: "img/Red LIVA Straight Kurta.webp",
+      // },
+      // {
+      //   id: 40,
+      //   name: "Zara Skirt",
+      //   price: 510,
+      //   category: "women",
+      //   brand: "Zara",
+      //   img: "https://source.unsplash.com/featured/?skirt,zara",
+      // },
+      {
+        id: 41,
+        name: "Red LIVA Straight Kurta",
+        price: 208,
+        category: "accessories",
+        brand: "Gucci",
+        img: "img/Red LIVA Straight Kurta.webp",
+      },
+      {
+        id: 42,
+        name: "Cotton Bucket Hat",
+        price: 230,
+        category: "accessories",
+        brand: "Allen Solly",
+        img: "img/Cotton bucket hat.avif",
+      },
+      {
+        id: 43,
+        name: "Braided crossbody Bag",
+        price: 370,
+        category: "accessories",
+        brand: "Nike",
+        img: "img/Braided crossbody bag.avif",
+      },
+      {
+        id: 44,
+        name: "Ray-Ban Sunglasses",
+        price: 445,
+        category: "accessories",
+        brand: "Ray-Ban",
+        img: "img/AKNIGHT Mens Watch.jpeg",
+      },
+      {
+        id: 45,
+        name: "ALIX Men Analogue Watch",
+        price: 338,
+        category: "accessories",
+        brand: "Fossil",
+        img: "img/ALIX Men Analogue Watch.jpeg",
+      },
+      {
+        id: 46,
+        name: "RENE Men Bi-Fold Wallet",
+        price: 261,
+        category: "accessories",
+        brand: "Guess",
+        img: "img/RENE Men Bi-Fold Wallet.jpeg",
+      },
+      {
+        id: 47,
+        name: "Michael Kors Women",
+        price: 481,
+        category: "accessories",
+        brand: "Michael Kors",
+        img: "img/Michael Kors Women.jpeg",
+      },
+      {
+        id: 48,
+        name: "Leather Belt",
+        price: 221,
+        category: "accessories",
+        brand: "Coach",
+        img: "img/Leather belt.avif",
+      },
+      {
+        id: 49,
+        name: "Narrow belt",
+        price: 471,
+        category: "accessories",
+        brand: "Versace",
+        img: "img/Narrow belt.avif",
+      },
+      {
+        id: 50,
+        name: "Blackberrys Men Navy Blue & White Printed Broad Tie",
+        price: 388,
+        category: "accessories",
+        brand: "Burberry",
+        img: "img/Blackberrys Men Navy Blue & White Printed Broad Tie.jpeg",
+      },
+    ];
+
+
+    let currentPage = 1;
+
+    function updateFiltersAndRender() {
+      const term = $("#productSearch").val().toLowerCase();
+      const maxPrice = +$("#maxPrice").val();
+      const categories = $(".category-filter:checked")
+        .map(function () {
+          return this.value;
+        })
+        .get();
+      const brands = $(".brand-filter:checked")
+        .map(function () {
+          return this.value;
+        })
+        .get();
+
+      let filtered = products.filter(
+        (p) =>
+          p.name.toLowerCase().includes(term) &&
+          p.price <= maxPrice &&
+          (categories.length === 0 || categories.includes(p.category)) &&
+          (brands.length === 0 || brands.includes(p.brand))
+      );
+
+      const sort = $("#sortBy").val();
+      if (sort === "asc") filtered.sort((a, b) => a.price - b.price);
+      if (sort === "desc") filtered.sort((a, b) => b.price - a.price);
+
+      const perPage = +$("#perPage").val();
+      const pageCount = Math.ceil(filtered.length / perPage);
+      currentPage = Math.min(currentPage, pageCount) || 1;
+      const start = (currentPage - 1) * perPage;
+      const showItems = filtered.slice(start, start + perPage);
+
+      const $grid = $("#productGrid").empty();
+      showItems.forEach((p) => {
+        $grid.append(`
+        <div class="col-md-4 mb-4">
+          <div class="product-item">
+            <img src="${p.img}" alt="${p.name}">
+            <div class="product-hover-content">
+              <div class="wishlist-btn">♡ WISHLIST</div>
+            </div>
+            <h6>${p.name}</h6>
+            <p>$${p.price.toFixed(2)}</p>
+            <small>${p.brand}</small>
+          </div>
+        </div>
+      `);
+      });
+
+      $("#resultsInfo").text(
+        `Showing ${start + 1} – ${start + showItems.length} of ${filtered.length
+        }`
+      );
+      const $pagination = $("#pagination").empty();
+      for (let i = 1; i <= pageCount; i++) {
+        $pagination.append(
+          `<li class="page-item${i === currentPage ? " active" : ""
+          }"><a class="page-link" href="#">${i}</a></li>`
+        );
+      }
+    }
+
+    $(function () {
+      $("#productSearch, #maxPrice, #sortBy, #perPage").on(
+        "input change",
+        function () {
+          $("#maxPriceLabel").text("$" + $("#maxPrice").val());
+          currentPage = 1;
+          updateFiltersAndRender();
+        }
+      );
+      $(".category-filter, .brand-filter").on("change", function () {
+        currentPage = 1;
+        updateFiltersAndRender();
+      });
+      $("#pagination").on("click", "a", function (e) {
+        e.preventDefault();
+        currentPage = +$(this).text();
+        updateFiltersAndRender();
+      });
+      $("#maxPriceLabel").text("$" + $("#maxPrice").val());
+      updateFiltersAndRender();
+    });
+  </script>
+</body>
+
+</html

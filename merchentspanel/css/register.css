@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('background.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+  width: 350px;
+  text-align: center;
+}
+
+.register-form h2 {
+  color: #357edd;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input-group i {
+  margin-right: 10px;
+  color: #888;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.checkbox {
+  text-align: left;
+  margin: 15px 0;
+}
+
+.checkbox .terms {
+  color: orange;
+  font-weight: bold;
+}
+
+.btn {
+  background: #5c3cc1;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signin-link {
+  margin-top: 15px;
+}
+
+.signin-link a {
+  color: orange;
+  text-decoration: none;
+}
+
+.social-text {
+  margin: 15px 0 5px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  background: #555;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
