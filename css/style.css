@@ -18,9 +18,9 @@
 
 -------------------------------------------------------------------*/
 
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
+body {
+  overflow-x: hidden;
+}
 
 html,
 body {
@@ -261,6 +261,7 @@ ol {
 /* Add a light bottom border to the main navbar */
 .main-navbar {
   border-bottom: 1px solid #f8f8f8;
+  
 }
 
 /* ============================= */
